@@ -1,6 +1,8 @@
 import styled, { createGlobalStyle } from 'styled-components';
 import { primary, primaryDark } from '../config/colors';
 
+import 'react-toastify/dist/ReactToastify.css';
+
 export default createGlobalStyle`
   * {
     margin: 0;

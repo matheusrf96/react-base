@@ -8,7 +8,7 @@ import PrivateRoute from './PrivateRoute';
 export default function AppRouter() {
   return (
     <Switch>
-      <PrivateRoute exact path="/" component={Login} isClosed />
+      <PrivateRoute exact path="/" component={Login} />
       <Route path="*" component={Page404} />
     </Switch>
   );
